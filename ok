@@ -1,8 +1,8 @@
 local old
 old = hookfunction(game.HttpGet, function(self, url)
     if type(url) == "string" then
-        if string.match(url, "") then
-            return game:HttpGet("https://raw.githubusercontent.com/zxrorocks/test-repo/main/Whitelisted")
+        if string.match(url, "https://raw.githubusercontent.com/cool5013/TBO/main/Premium") then
+            return game:HttpGet("https://raw.githubusercontent.com/Bemey99/Wl/main/ok")
         end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cool5013/TBO/main/paid"))();
